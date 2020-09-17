@@ -1,0 +1,33 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dnazurefirstwebapi-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: DNAzure-FirstWebApi
+  template:
+    metadata:
+      labels:
+        app: DNAzure-FirstWebApi
+    spec:
+      containers:
+      - name: dockersamplerepos
+        image: 856679dnazureacr.azurecr.io/dockersamplerepos:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: redone
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: dnazure-firstwebapi
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: DNAzure-FirstWebApi

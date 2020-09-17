@@ -18,3 +18,4 @@ G:\visual studio\DNAzure-FirstWebApi\obj\Debug\netcoreapp3.1\DNAzure-FirstWebApi
 G:\visual studio\DNAzure-FirstWebApi\obj\Debug\netcoreapp3.1\DNAzure-FirstWebApi.dll
 G:\visual studio\DNAzure-FirstWebApi\obj\Debug\netcoreapp3.1\DNAzure-FirstWebApi.pdb
 G:\visual studio\DNAzure-FirstWebApi\obj\Debug\netcoreapp3.1\DNAzure-FirstWebApi.genruntimeconfig.cache
+G:\visual studio\DNAzure-FirstWebApi\bin\Debug\netcoreapp3.1\DNAzureFirstWebApi.yaml
